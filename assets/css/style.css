@@ -1,0 +1,140 @@
+/*========== Fonts ========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ========== CSS Reset ========== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========== Cabeçalho - Header ========== */
+
+header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.7rem 0 0.9rem 0;
+}
+
+h1 {
+    margin-left: 1.3rem;
+}
+
+span {
+    color: #ffffff;
+    background-color: rgb(46, 45, 45);
+}
+
+.header-navbar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    margin-right: 2rem;
+    font-weight: 550;
+}
+
+.nav-link:hover {
+    background-color: gray;
+    color: #eee7e7;
+    transition: all 0.4s ease;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+/* ========== Main ========== */
+
+.main-img {
+    width: 100%;
+    height: 73vh;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    margin-left: 5rem;
+}
+
+.main-content h3 {
+    font-size: 2.5rem;
+    color: #2c2b2b;
+}
+
+.main-content h2 {
+    font-size: 7rem;
+    color: rgb(52, 88, 248);
+}
+
+.main-content p {
+    font-size: 1.9em;
+    color: #29282857;
+}
+
+/* ========== Section ==========  */
+
+section {
+    display: flex;
+    width: 95%;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.section-paragraph {
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2b2bad;
+}
+
+.section-link {
+    text-decoration: none;
+    color: rgb(50, 84, 235);
+}
+
+.section-link:hover {
+    color: rgb(140, 135, 168);
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+/* ========== Footer ========== */
+
+footer {
+    height: 10vh;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee7e7;
+}
+
+.footer-title {
+    font-size: 2rem;
+    color: rgb(52, 88, 248);
+}
